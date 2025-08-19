@@ -165,7 +165,7 @@ nav ul li a {
         /* Герой секция */
         .hero {
             height: 100vh;
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/sm.jpg') no-repeat center center/cover;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/signboard.jpg') no-repeat center center/cover;
             color: white;
             display: flex;
             align-items: center;
@@ -508,6 +508,9 @@ nav ul li a {
             color: var(--light-color);
             font-size: 0.9rem;
         }
+        .copyright p {
+            color: #fff !important;
+         }
 
         /* Адаптивность */
         @media (max-width: 992px) {
